@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Benedicte</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f5f7fa;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:linear-gradient(135deg,#1e3a8a,#2563eb);
+            color:white;
+            text-align:center;
+            padding:80px 20px;
+        }
+
+        header h1{
+            font-size:50px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:20px;
+        }
+
+        nav{
+            background:white;
+            padding:15px;
+            text-align:center;
+            box-shadow:0 2px 5px rgba(0,0,0,0.1);
+            position:sticky;
+            top:0;
+        }
+
+        nav a{
+            margin:0 15px;
+            text-decoration:none;
+            color:#2563eb;
+            font-weight:bold;
+        }
+
+        section{
+            max-width:1000px;
+            margin:40px auto;
+            background:white;
+            padding:40px;
+            border-radius:15px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        h2{
+            color:#1e3a8a;
+            margin-bottom:20px;
+            border-bottom:3px solid #2563eb;
+            display:inline-block;
+            padding-bottom:5px;
+        }
+
+        .skills{
+            display:flex;
+            flex-wrap:wrap;
+            gap:15px;
+            margin-top:20px;
+        }
+
+        .skill{
+            background:#2563eb;
+            color:white;
+            padding:10px 20px;
+            border-radius:30px;
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+            margin-top:20px;
+        }
+
+        .project-card{
+            background:#f9fafb;
+            border-radius:10px;
+            padding:20px;
+            border-left:5px solid #2563eb;
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:translateY(-5px);
+        }
+
+        footer{
+            background:#111827;
+            color:white;
+            text-align:center;
+            padding:25px;
+            margin-top:40px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 25px;
+            background:#2563eb;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#1e40af;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Benedicte</h1>
+    <p>Développeuse Web | Django | IA | Data Science</p>
+
+    <a href="#contact" class="btn">Me Contacter</a>
+</header>
+
+<nav>
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="apropos">
+    <h2>À propos</h2>
+
+    <p>
+        Étudiante passionnée par le développement web,
+        l’intelligence artificielle et les nouvelles technologies.
+        J’aime créer des applications modernes avec Django,
+        Python et les technologies web.
+    </p>
+</section>
+
+<section id="competences">
+    <h2>Compétences</h2>
+
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">Django</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">GitHub</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Machine Learning</div>
+    </div>
+</section>
+
+<section id="projets">
+    <h2>Mes Projets</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Gestion Pharmacie</h3>
+            <p>
+                Application Django permettant la gestion des médicaments,
+                ventes et stocks.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio GitHub</h3>
+            <p>
+                Création d’un site portfolio hébergé avec GitHub Pages.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Projet IA</h3>
+            <p>
+                Analyse et traitement de données avec Python et outils IA.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p><strong>Email :</strong> votreemail@gmail.com</p>
+    <p><strong>GitHub :</strong> github.com/Benedic245te</p>
+
+</section>
+
+<footer>
+    <p>© 2026 Benedicte - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
+
+Votre portfolio sera en ligne.
